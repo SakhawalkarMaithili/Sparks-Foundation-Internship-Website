@@ -1,0 +1,68 @@
+.container-navbar
+{
+    display: flex;
+}
+
+.right-options
+{
+    justify-content: flex-end;
+}
+
+.main-body
+{
+    display: block;
+    height: 553px;
+    background-image: url("images/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+
+
+.organization-name
+{
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+}
+
+.donate-btn
+{
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    background-color: crimson;
+    border: crimson;
+    border-radius: 25px;
+    height: 50px;
+    font-size: 25px;
+}
+
+.donate-btn:hover
+{
+    background-color: green;
+}
+
+
+@media screen and (max-width:1200px)
+{
+    .organization-name
+    {
+        font-size: 40px;
+    }
+
+    .donate-btn
+    {
+        font-size: 10px;
+        height: 25px;
+    }
+
+    .main-body
+    {
+        display: block;
+        height: 553px;
+        background-image: url("images/Mobile.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
