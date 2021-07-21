@@ -21,6 +21,17 @@ body
     justify-content: flex-end;
 }
 
+
+a.nav-link
+{
+    font-size: 19px;
+}
+
+a.nav-link:hover
+{
+    font-weight: bold;
+}
+
 .main-body
 {
     display: block;
@@ -78,14 +89,20 @@ footer .left-options ul li
     margin-right: 6%;
 }
 
-.about-us-heading
+
+.about-us-main
 {
-    height: 300px;
     background-image: url("images/Background_about_us.png");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.about-us-heading
+{
+    height: 300px;
     color: #fff;
     padding-top: 180px;
+    font-family: 'Permanent Marker', cursive;
 }
 
 .card-deck
@@ -105,6 +122,23 @@ footer .left-options ul li
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15);
 }
 
+.corousel-3
+{
+    height: 450px;
+    background-image: url("images/corousel-3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 200px;
+    padding-top: 30px;
+}
+
+
+.donate-btn1
+{
+    padding: 30px;
+    padding-left: 100px;
+}
+
 @media screen and (max-width:1200px)
 {
     .organization-name
@@ -118,13 +152,17 @@ footer .left-options ul li
         height: 25px;
     }
 
+    .home-body
+    {
+        background-image: url("images/Mobile.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
     .main-body
     {
         display: block;
         height: 553px;
-        background-image: url("images/Mobile.png");
-        background-repeat: no-repeat;
-        background-size: cover;
     }
 
     footer .left-options ul li
@@ -133,10 +171,33 @@ footer .left-options ul li
         font-size: 15px;
     }
 
+
+    .about-us-main
+    {
+        background-image: url("images/Mobile-about-us.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
     .about-us-heading
     {
         padding-top: 100px;
         text-align: center;
-        background-image: url("images/Mobile-about-us.png");
+    }
+
+
+    img.d-block
+    {
+        height: 400px;
+    }
+
+    .corousel-3
+    {
+        height: 400px;
+        background-image: url("images/Mobile-corousel-3.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-left: 10%;
+        padding-top: 10%;
     }
 }
