@@ -46,7 +46,7 @@ a.nav-link:hover
     font-size: 70px;
     text-align: center;
     padding-top: 250px;
-    font-family: 'Otomanopee One', sans-serif;
+    font-family: 'Permanent Marker', cursive;
 }
 
 .donate-btn
@@ -103,6 +103,7 @@ footer .left-options ul li
     color: #fff;
     padding-top: 180px;
     font-family: 'Permanent Marker', cursive;
+    padding-left: 20px;
 }
 
 .card-deck
